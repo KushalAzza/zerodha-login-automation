@@ -1,0 +1,26 @@
+{
+  "name": "zerodha-login-automation",
+  "version": "1.0.0",
+  "description": "Automated Zerodha Kite login for macOS and Linux using Firefox, TOTP, and Kite Connect",
+  "main": "index.js",
+  "scripts": {
+    "login": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "kiteconnect": "^5.1.0",
+    "selenium-webdriver": "^4.15.0",
+    "totp-generator": "^0.0.13"
+  },
+  "keywords": [
+    "zerodha",
+    "kite",
+    "login",
+    "automation",
+    "selenium",
+    "firefox",
+    "totp"
+  ],
+  "author": "",
+  "license": "MIT"
+}
