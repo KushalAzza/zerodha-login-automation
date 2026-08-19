@@ -17,6 +17,7 @@ This project is login-only. It does not place orders, fetch positions, or downlo
 ```
 zerodha-login-automation/
 ├── .gitignore
+├── LICENSE
 ├── README.md
 ├── env.example
 ├── index.js
@@ -106,3 +107,7 @@ async function login() {
 - **Login fails:** check `USER_ID`, `PASSWORD`, and `TOTP_SECRET`.
 - **Browser does not start:** install Firefox and GeckoDriver. On Linux you need a graphical session (`DISPLAY` or `WAYLAND_DISPLAY`). Set `FIREFOX_BINARY` / `GECKODRIVER_PATH` if they are not found automatically.
 - **No `request_token`:** the Kite Connect app redirect URL must be reachable from the browser session.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
